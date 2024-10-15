@@ -1,0 +1,20 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Importação das fontes */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* Cores em variáveis */
+:root{
+    --BrancoFundo: #EEF0EB;
+    --Vermelho: #AE2A2B;
+    --Azul: #326671; 
+}
+
+body {
+    background-color: var(--BrancoFundo);
+}
