@@ -1,58 +1,205 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Hemoglobina: doação de sangue. Assim como um doador frequente, doar faz bem pra muita gente!">
-        <title> Hemoglobina </title>
-        <link rel="stylesheet" href="estilo-hemoglobina.css">
-    </head>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Hemoglobina: doação de sangue </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="estilo-index.css" rel="stylesheet" type="text/css" />
+  </head>
 
-    <body>
-        <header>
-            <!-- Menu da Cindy -->
-        </header>
+  <!-- Menu -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./assets/LogoHemoglobina.svg" alt="Logo">
+      </div>
+      <ul>
+        <li><a href="#oq">O Que É?</a></li>
+        <li><a href="#func">Como Funciona?</a></li>
+        <li><a href="#divulg">Porque Usar?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <!-- Apresentação do aplicativo -->
+    <!-- Slider main container -->
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="./assets/Tela de login Hemoglobina.png" alt="">
+          <div class="title">
+            <span>Tela de Login</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/Tela inicial Hemoglobina.png" alt="">
+          <div class="title">
+            <span>Tela Inicial</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/Tela de cadastro-login Hemoglobina.png" alt="">
+          <div class="title">
+            <span>Tela de Cadastro</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/Tela de login Hemoglobina.png" alt="">
+          <div class="title">
+            <span>Tela de Login</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/Tela inicial Hemoglobina.png" alt="">
+          <div class="title">
+            <span>Tela Inicial</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/Tela de cadastro-login Hemoglobina.png" alt="">
+          <div class="title">
+            <span>Tela de Cadastro</span>
+          </div>
+        </div>
+      </div>
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="apresentacao2" style="width: 1070px; margin: 0 auto;" id="oq">
+      <!-- O que é o hemoglobina?-->
+      <div>
+          <h2 class="home-title"> O que é o Hemoglobina? </h2>
+          <p class="home-text"> O Hemoglobina é um aplicativo móvel desenvolvido como um projeto de TCC dentro do curso de Desenvolvimento de Sistemas da ETEC de Taboão da Serra, pelos alunos: Cindy Kamile, Gabrielly Nataly, Giovanna Santos, Jaqueline Bastos e Nicolas dos Santos. Seu principal objetivo é facilitar a comunicação entre pessoas que desejam doar sangue e pontos de coleta, além de disseminar mais informações sobre esse tema e tornar a doação de sangue uma ação cotidiana. </p>
+      </div>
+
+      <div>
+          <iframe src="https://drive.google.com/file/d/12g1FwPcoim6Q3Van31JSs3WAT36o2fSf/preview" width="1070" height="750" allow="autoplay" controls style="box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);"></iframe>
+      </div>
+    </div>
+
+    <!-- Como o aplicativo funciona -->
+    <div class="doador" id="func">
+      <!-- Código da parte doador -->
+    </div>
+
+     <div class="hemocentro">
+        <h2> Como o aplicativo funciona </h2>
+        <p> O aplicativo Hemoglobina disponibiliza ferramentas que melhoram a eficiência e a gestão das operações diárias, além de auxiliar na captação de novos doadores. Entre as principais ferramentas temos: </p>
+
+        <button> Doador </button>
+        <button> Hemocentro </button>
+
+        <img src="./assets/app-hemocentro.png" alt="telas de adicionar doação e visualização do banco de sangue, na parte de login-hemocentro">
+
+        <img src="./assets/estoque.png" alt="ícone de estoque">
+        <h3> Estoque </h3>
+        <p> Os hemocentros poderão verificar e atualizar
+          o estoque do banco de sangue. </p>
+
+        <img src="./assets/grafico.png" alt="ícone de gráfico">
+        <h3> Representação gráfica </h3>
+        <p> Concede a visualização de forma visual  e gráfica do nível do banco de sangue. </p>
+
+        <img src="./assets/campanha.png" alt="ícone de campanha">
+        <h3> Criar campanhas </h3>
+        <p> Divulgar casos e pedidos de doações
+          em formato de post. </p>
+
+        <img src="./assets/doacoes.png" alt="ícone de doação">
+        <h3> Adicionar doações </h3>
+        <p> Permite a atualização manual do estoque, 
+          após receberem uma doação.  </p>
+     </div>
+
+     <!-- Por que usar o hemoglobina? -->
+     <div class="divulgacao-doador" id="divulg">
+    <!-- Parte do doador -->
+    </div>
+
+      <div class="divulgacao-hemocentro">
+        <h2> Porque usar o hemoglobina? </h2>
+
+        <img src="./assets/1.png" alt="número um">
+        <h3> Praticidade </h3>
+        <p> Aplicação de fácil uso e manuseio. </p>
         
-        <main>
-            <section>
-                <!-- Apresentação do aplicativo -->
-            </section>
+        <img src="./assets/" alt="número dois">
+        <h3> Segurança </h3>
+        <p> Assegura-se total proteção e cuidado com os dados fornecidos pelos usuários. </p>
 
-            <section>
-                <!-- O que é o hemoglobina?-->
-                <div>
-                    <h2> O que é o hemoglobina? </h2>
-                    <p> O Hemoglobina é um aplicativo móvel desenvolvido como um projeto de TCC dentro do curso de Desenvolvimento de Sistemas da ETEC de Taboão da Serra, pelos alunos: Cindy Kamile, Gabrielly Nataly, Giovanna Santos, Jaqueline Bastos e Nicolas dos Santos. Seu principal objetivo é facilitar a comunicação entre pessoas que desejam doar sangue e pontos de coleta, além de disseminar mais informações sobre esse tema e tornar a doação de sangue uma ação cotidiana. </p>
-                </div>
+        <img src="./assets/3.png" alt="número três">
+        <h3> Design intuitivo </h3>
+        <p> Transmite ao usuário a sensação de conforto e segurança durante a utilização da aplicação. </p>
 
-                <div>
-                    <iframe src="https://drive.google.com/file/d/12g1FwPcoim6Q3Van31JSs3WAT36o2fSf/preview" width="640" height="480" allow="autoplay"></iframe>
-                </div>
-            </section>
+        <img src="./assets/celular.png" alt="uma mão segurança um celular mostrando a tela inicial do doador">
 
-            <section>
-                <!-- Como o aplicativo funciona (doador)-->
-            </section>
+        <img src="./assets/4.png" alt="número quatro">
+        <h3> Suporte </h3>
+        <p> Contate-nos por via e-mail ou instragram caso tenha dúvidas em relação ao nosso aplicativo. </p>
 
-            <section>
-                <!-- Como o aplicativo funciona (hemocentro)-->
-            </section>
+        <img src="./assets/5.png" alt="número cinco">
+        <h3> Carteirinha digital </h3>
+        <p> Solicite sua carteirinha vitual após três doações realizadas, baixe e usufrua dos benefícios de ser um doador. </p>
 
-            <section>
-                <!-- Porquê usar o hemoglobina (doador)-->
-            </section>
+        <img src="./assets/6.png" alt="número seis">
+        <h3> Pré-triagem </h3>
+        <p> Quer descobrir se você apto a doar? Acesse nosso questionário de pré-triagem e descubra! </p>
+      </div>
 
-            <section>
-                <!-- Porquê usar o hemoglobina (hemocentro)-->
-            </section>
+      <div class="faq" id="faq">
+        <!-- Perguntas frequentes-->
+      </div>
 
-            <section>
-                <!-- Perguntas frequentes-->
-            </section>
-        </main>
+    <div class="separadorCima">
+    </div>
 
-        <footer>
-            <!-- Footer da Cindy-->
-        </footer>
-    </body>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-logo">
+        <img src="./assets/LogoHemoglobina.svg" alt="Logo do Footer">
+      </div>
+      <ul class="footer-menu">
+        <li><a href="#oq">O Que É?</a></li>
+        <li><a href="#func">Como Funciona?</a></li>
+        <li><a href="#divulg">Porque Usar?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+      <div class="footer-icons">
+        <a href="#"><img src="./assets/Icones.png" alt="Email"></a>
+      </div>
+      <hr>
+      <p>&copy; 2024 Todos os direitos reservados pela Hemoglobina LTDA.</p>
+    </footer>
+
+    <!-- Javascript interno -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 80,
+          depth: 350,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
 
 </html>

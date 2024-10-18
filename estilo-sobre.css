@@ -15,15 +15,52 @@
     --Azul: #326671; 
 }
 
-body {
-    background-color: var(--Vermelho);
-    font-family: 'Dm Sans';
-}
+ /* Menu */
+ header {
+    background-color: #b22b2b; /* Cor vermelha semelhante ao da imagem */
+    padding: 15px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav .logo img {
+    height: 60px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #f7f0f0; /* Cor branca com leve opacidade */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: var(--Azul); /* Cor amarela ao passar o mouse */
+  }
 
 h1 {
     color: var(--BrancoFundo);
     font-weight: 700;
     font-size: 66px;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .sobre-nos {
@@ -37,3 +74,68 @@ h1 {
     width: 70%;
     height: 70%;
 }
+
+/* Footer */
+footer {
+    background-color: #b22b2b; /* Cor vermelha do footer */
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    position: absolute;
+    width: 100%;
+    margin-top: auto;
+  }
+  
+  .footer-logo img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-menu li {
+    margin: 0 15px;
+  }
+  
+  .footer-menu li a {
+    color: #f7f0f0;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
+  
+  .footer-menu li a:hover {
+    color: #ffd700; /* Cor amarela ao passar o mouse */
+  }
+  
+  .footer-icons {
+    margin-bottom: 20px;
+  }
+  
+  .footer-icons a {
+    margin: 0 10px;
+  }
+  
+  .footer-icons img {
+    width: 80px;
+  }
+  
+  /* Linha horizontal no footer */
+  hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #fff;
+    margin: 20px auto;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
