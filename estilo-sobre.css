@@ -19,6 +19,7 @@
  header {
     background-color: #b22b2b; /* Cor vermelha semelhante ao da imagem */
     padding: 15px 0;
+    height: 700px;
   }
   
   nav {
@@ -50,10 +51,11 @@
     font-weight: normal;
     letter-spacing: 1px;
     transition: color 0.3s;
+    font-family: 'DM Sans', sans-serif;
   }
   
   nav ul li a:hover {
-    color: var(--Azul); /* Cor amarela ao passar o mouse */
+    color: var(--Azul); /* Cor azul ao passar o mouse */
   }
 
 h1 {
@@ -61,6 +63,7 @@ h1 {
     font-weight: 700;
     font-size: 66px;
     font-family: 'DM Sans', sans-serif;
+    margin-top: -500px;
 }
 
 .sobre-nos {
@@ -73,6 +76,58 @@ h1 {
 .foto-equipe {
     width: 70%;
     height: 70%;
+}
+
+.text-team {
+  margin-top: -370px;
+  width: 900px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.nossa-equipe {
+  margin-top: 15%;
+}
+
+h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 2%;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-image {
+  font-family: 'DM Sans', sans-serif;
+  width: 700px;
+
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+
+  margin-left: 33%;
+}
+
+.int-fotos {
+  margin-top: 3%;
+  display: flex;
+
+  margin-bottom: 8%;
+
+  gap: 10px;
+}
+
+.cindy p, .gaby p, .gi p, .jaque p, .nic p {
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  margin-top: 4%;
+}
+
+.linkedin {
+  margin-left: 43%;
+  margin-top: 5%;
 }
 
 /* Footer */
@@ -109,10 +164,11 @@ footer {
     font-size: 18px;
     font-weight: normal;
     letter-spacing: 1px;
+    font-family: 'DM Sans', sans-serif;
   }
   
   .footer-menu li a:hover {
-    color: #ffd700; /* Cor amarela ao passar o mouse */
+    color: var(--Azul); /* Cor azul ao passar o mouse */
   }
   
   .footer-icons {
@@ -138,4 +194,5 @@ footer {
   footer p {
     margin-top: 10px;
     font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
   }

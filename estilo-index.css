@@ -1,6 +1,13 @@
 /* importação da fonte principal */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
+/* Cores em variáveis */
+:root{
+  --BrancoFundo: #EEF0EB;
+  --Vermelho: #AE2A2B;
+  --Azul: #326671; 
+}
+
 /* Estilos gerais */
 html, body {
     margin: 0;
@@ -18,6 +25,7 @@ html, body {
   header {
     background-color: #b22b2b; /* Cor vermelha semelhante ao da imagem */
     padding: 15px 0;
+    height: 700px;
   }
   
   nav {
@@ -105,6 +113,33 @@ html, body {
     -webkit-backdrop-filter: blur(10px);
     transition: all 0.5s linear;
   }
+
+  .textos-inicial {
+    margin-top: -600px;
+  }
+
+  h1 {
+    font-family: 'Dm Sans', sans-serif;
+    color: var(--BrancoFundo);
+
+    justify-content: center;
+    text-align: center;
+
+    font-size: 66px;
+  }
+
+  .home-p {
+    font-family: 'Dm Sans', sans-serif;
+    color: var(--BrancoFundo);
+    width: 600px;
+
+    justify-content: center;
+    text-align: center;
+
+    margin-left: 30%;
+
+    font-size: 20px;
+  }
   
   /* estilo do "o que é o hemoglobina?" */
   .apresentacao2 {
@@ -127,6 +162,66 @@ html, body {
     font-size: 24px;
     text-align: justify;
     padding-bottom: 2%;
+  }
+
+  .home-title2 {
+    font-family: 'Dm Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .home-text2 {
+    font-size: 24px;
+    text-align: justify;
+    padding-bottom: 2%;
+    width: 1130px;
+    text-align: center;
+    margin-left: 15%;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .button.doador {
+    background-color: #d9e4e3;
+    color: #3c6064;
+  }
+
+  .button.hemocentro {
+    background-color: #3c6064;
+  }
+
+  .tela-celular {
+    margin-top: -4%;
+  }
+
+  .hemocentro2 {
+    display: flex;
+  }
+
+  .detalhes-hemo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detalhes-hemo img {
+    height: 75px;
+    width: 75px;
   }
 
   /*separadorCima*/

@@ -25,6 +25,11 @@
   </header>
 
   <body>
+    <div class="textos-inicial">
+      <h1>HEMOGLOBINA</h1>
+      <p class="home-p">Um aplicativo que conecta hemocentros e doadores de sangue numa rede de campanhas e informações.</p>
+    </div>
+
     <!-- Apresentação do aplicativo -->
     <!-- Slider main container -->
     <div class="swiper-container">
@@ -32,37 +37,37 @@
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide">
-          <img src="./assets/Tela de login Hemoglobina.png" alt="">
+          <img src="./assets/Tela de inicialização.png" alt="">
           <div class="title">
             <span>Tela de Login</span>
           </div>
         </div>
         <div class="swiper-slide">
-          <img src="./assets/Tela inicial Hemoglobina.png" alt="">
+          <img src="./assets/Tela de cadastro-login Hemoglobina.png" alt="">
           <div class="title">
             <span>Tela Inicial</span>
           </div>
         </div>
         <div class="swiper-slide">
-          <img src="./assets/Tela de cadastro-login Hemoglobina.png" alt="">
+          <img src="./assets/Tela de login Hemoglobina.png" alt="">
           <div class="title">
             <span>Tela de Cadastro</span>
           </div>
         </div>
         <div class="swiper-slide">
-          <img src="./assets/Tela de login Hemoglobina.png" alt="">
+          <img src="./assets/HomeDoador.png" alt="">
           <div class="title">
             <span>Tela de Login</span>
           </div>
         </div>
         <div class="swiper-slide">
-          <img src="./assets/Tela inicial Hemoglobina.png" alt="">
+          <img src="./assets/HemocentrosPróximos1.png" alt="">
           <div class="title">
             <span>Tela Inicial</span>
           </div>
         </div>
         <div class="swiper-slide">
-          <img src="./assets/Tela de cadastro-login Hemoglobina.png" alt="">
+          <img src="./assets/HomeHemocentro.png" alt="">
           <div class="title">
             <span>Tela de Cadastro</span>
           </div>
@@ -90,33 +95,37 @@
     </div>
 
      <div class="hemocentro">
-        <h2> Como o aplicativo funciona </h2>
-        <p> O aplicativo Hemoglobina disponibiliza ferramentas que melhoram a eficiência e a gestão das operações diárias, além de auxiliar na captação de novos doadores. Entre as principais ferramentas temos: </p>
+        <h2 class="home-title2"> Como o aplicativo funciona </h2>
+        <p class="home-text2"> O aplicativo Hemoglobina disponibiliza ferramentas que melhoram a eficiência e a gestão das operações diárias, além de auxiliar na captação de novos doadores. Entre as principais ferramentas temos: </p>
 
-        <button> Doador </button>
-        <button> Hemocentro </button>
+        <div class="button-container">
+          <button class="button doador">DOADOR</button>
+          <button class="button hemocentro">HEMOCENTRO</button>
+        </div>
 
-        <img src="./assets/app-hemocentro.png" alt="telas de adicionar doação e visualização do banco de sangue, na parte de login-hemocentro">
+        <div class="hemocentro2">
+            <img class="tela-celular" src="./assets/app-hemocentro.png" alt="telas de adicionar doação e visualização do banco de sangue, na parte de login-hemocentro">
+          
+            <div class="detalhes-hemo1">
+              <img class="est-img" src="./assets/estoque.png" alt="ícone de estoque">
+              <h3> Estoque </h3>
+              <p> Os hemocentros poderão verificar e atualizar o estoque do banco de sangue. </p>
+      
+              <img src="./assets/grafico.png" alt="ícone de gráfico">
+              <h3> Representação gráfica </h3>
+              <p> Concede a visualização de forma visual  e gráfica do nível do banco de sangue. </p>
+            </div>
 
-        <img src="./assets/estoque.png" alt="ícone de estoque">
-        <h3> Estoque </h3>
-        <p> Os hemocentros poderão verificar e atualizar
-          o estoque do banco de sangue. </p>
-
-        <img src="./assets/grafico.png" alt="ícone de gráfico">
-        <h3> Representação gráfica </h3>
-        <p> Concede a visualização de forma visual  e gráfica do nível do banco de sangue. </p>
-
-        <img src="./assets/campanha.png" alt="ícone de campanha">
-        <h3> Criar campanhas </h3>
-        <p> Divulgar casos e pedidos de doações
-          em formato de post. </p>
-
-        <img src="./assets/doacoes.png" alt="ícone de doação">
-        <h3> Adicionar doações </h3>
-        <p> Permite a atualização manual do estoque, 
-          após receberem uma doação.  </p>
-     </div>
+          <div class="detalhes-hemo2">
+            <img src="./assets/campanha.png" alt="ícone de campanha">
+            <h3> Criar campanhas </h3>
+            <p> Divulgar casos e pedidos de doações em formato de post. </p>
+      
+            <img src="./assets/doacoes.png" alt="ícone de doação">
+            <h3> Adicionar doações </h3>
+            <p> Permite a atualização manual do estoque, após receberem uma doação.  </p>
+          </div>
+        </div>
 
      <!-- Por que usar o hemoglobina? -->
      <div class="divulgacao-doador" id="divulg">
@@ -124,7 +133,7 @@
     </div>
 
       <div class="divulgacao-hemocentro">
-        <h2> Porque usar o hemoglobina? </h2>
+        <h2 class="home-title"> Porque usar o hemoglobina? </h2>
 
         <img src="./assets/1.png" alt="número um">
         <h3> Praticidade </h3>
