@@ -1,58 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Hemoglobina: doação de sangue. Assim como um doador frequente, doar faz bem pra muita gente!">
-        <title> Hemoglobina </title>
-        <link rel="stylesheet" href="estilo-hemoglobina.css">
-    </head>
+<html>
 
-    <body>
-        <header>
-            <!-- Menu da Cindy -->
-        </header>
-        
-        <main>
-            <section>
-                <!-- Apresentação do aplicativo -->
-            </section>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>teste</title>
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
 
-            <section>
-                <!-- O que é o hemoglobina?-->
-                <div>
-                    <h2> O que é o hemoglobina? </h2>
-                    <p> O Hemoglobina é um aplicativo móvel desenvolvido como um projeto de TCC dentro do curso de Desenvolvimento de Sistemas da ETEC de Taboão da Serra, pelos alunos: Cindy Kamile, Gabrielly Nataly, Giovanna Santos, Jaqueline Bastos e Nicolas dos Santos. Seu principal objetivo é facilitar a comunicação entre pessoas que desejam doar sangue e pontos de coleta, além de disseminar mais informações sobre esse tema e tornar a doação de sangue uma ação cotidiana. </p>
-                </div>
-
-                <div>
-                    <iframe src="https://drive.google.com/file/d/12g1FwPcoim6Q3Van31JSs3WAT36o2fSf/preview" width="640" height="480" allow="autoplay"></iframe>
-                </div>
-            </section>
-
-            <section>
-                <!-- Como o aplicativo funciona (doador)-->
-            </section>
-
-            <section>
-                <!-- Como o aplicativo funciona (hemocentro)-->
-            </section>
-
-            <section>
-                <!-- Porquê usar o hemoglobina (doador)-->
-            </section>
-
-            <section>
-                <!-- Porquê usar o hemoglobina (hemocentro)-->
-            </section>
-
-            <section>
-                <!-- Perguntas frequentes-->
-            </section>
-        </main>
-
-        <footer>
-            <!-- Footer da Cindy-->
-        </footer>
-    </body>
+<body>
+    <h1 class="titulo"> Perguntas Frequentes </h1>
+  <div class="card">
+          <div class="question-container">
+              <button class="toggle-button">+</button>
+              <div class="question"> Quem pode doar? </div>
+          </div>
+          <div class="answer" style="display: none;">
+             Qualquer pessoa entre os 16 e 69 anos de anos e que pese mais de 50 kg. Caso o doador seja menor de idade, é necessário a autorização de um responsável legal.  
+          </div>
+  </div> 
+      <div class="card"> 
+      <div class="question-container">
+          <button class="toggle-button">+</button>
+          <div class="question"> Meu corpo irá sentir falta desse sangue? </div>
+      </div>
+      <div class="answer" style="display: none;"> Não. Nós possuímos cerca de 5 litros de sangue circulando pelo nosso corpo. Nosso organismo consegue recompor o sangue após 72 horas. </div>
+      </div>
+  </div>
+    <div class="card">
+        <div class="question-container">
+            <button class="toggle-button">+</button>
+            <div class="question"> Qual o limite de doações de sangue? </div>
+        </div>
+        <div class="answer" style="display: none;">
+           Para mulheres o limite de doações é até 03 durante o ano. Já para os homens o limite é de 04 doações durante o ano. 
+        </div>
+    </div>
+    <div class="card">
+        <div class="question-container">
+            <button class="toggle-button">+</button>
+            <div class="question"> Qual é o intervalo entre uma doação e outra? </div>
+        </div>
+        <div class="answer" style="display: none;">
+            Para mulheres o intervalo é de: 3 (três) meses e para homens é de: 2 (dois) meses.
+        </div>
+    </div>
+    <div class="card">
+        <div class="question-container">
+            <button class="toggle-button">+</button>
+            <div class="question"> Quais os cuidados para se ter antes da doação? </div>
+        </div>
+        <div class="answer" style="display: none;">
+            Estar bem alimentado(a), descansado(a), não ingerir nenhuma bebida alcoólica nas últimas 24 horas. Não é                 necessário realizar nenhum antes da doação, apenas se certifique se está assistomático e em boas condições de saúde.
+        </div>
+    </div>
+    <div class="card">
+        <div class="question-container">
+            <button class="toggle-button">+</button>
+            <div class="question"> Quanto tempo dura a coleta? </div>
+        </div>
+        <div class="answer" style="display: none;">
+          Dura, aproximadamente, 8 a 12 minutos. Mas, antes o doador precisa passar na triagem, logo, o processo dura por volta de 40 minutos ao todo,pórem,depende muito da circulação de pessoas, no hemocentro, o que pode interferir no momento da coleta. 
+        </div>
+    </div>
+    <div class="card">
+        <div class="question-container">
+            <button class="toggle-button">+</button>
+            <div class="question"> O que pode me impedir de doar sangue? </div>
+        </div>
+        <div class="answer" style="display: none;">
+           Doenças infecciossas, como a gripe, dengue, Covid-19, entre outras. Nesses casos a doação é permitida, porém, só é relizada após um período de 7 - 40 dias. Mas, há também doenças que impedem o doador de doar sangue permanentemente, como por exemplo: HIV/AIDS, malária, dentre outras. 
+        </div>
+    </div>
+    <div class="card">
+        <div class="question-container">
+            <button class="toggle-button">+</button>
+            <div class="question"> E depois de doar sangue? </div>
+        </div>
+        <div class="answer" style="display: none;">
+           Recomenda-se que o doador evite fazer esforços físicos, beba bastante água, evitar fumar por pelo menso 2 horas e também não ingerir álcool pelo resto do dia, além de não poder praticar quaisquer esportes radicais ou dirigir veículos de grande porte. 
+        </div>
+    </div>
+  
+  <script src="./script.js"></script>
+</body>
 
 </html>
