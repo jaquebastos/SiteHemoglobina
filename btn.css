@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+  background-color: #EEF0EB;
+  font-family: 'DM Sans';
+}
+
+.button-baixar {
+  cursor: pointer;
+  background-color: #326771;
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+  width: 150px;
+  height: 65px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao botão */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transição suave para a sombra */
+}
+
+.button-baixar:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.03);
+}
+
+.button-baixar a {
+  outline: none; /* Remove o contorno padrão */
+  text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.button-baixar:focus {
+  outline: none; /* Remove o contorno quando o botão está em foco */
+}
+
+.destaque-btn {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.texto-disponivel {
+  display: inline-block;
+  /* Para permitir o uso de margin-top */
+  margin-top: 5px;
+  /* Ajuste fino para alinhar com a imagem */
+  font-size: 10px;
+  /* Para manter o tamanho igual ao texto do botão */
+  text-decoration: none;
+  color: #EEF0EB;
+}
